@@ -166,6 +166,6 @@ setInterval(updateTargetPosition, 5000);
 // Change the target image every 3 seconds
 setInterval(() => {
   const randomImageIndex = Math.floor(Math.random() * 2) + 1;
-  targetImage.src = `img/target-image1.jpg`;
+  targetImage.src = `img/target2-image1.jpg`;
 }, 3000);
 
